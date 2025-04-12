@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Ascii Generator</h1>
+        <form id="asciiForm">
+            <textarea name="text" id="text" placeholder="Enter text here..."></textarea>
+            <select name="font" id="font">
+                <option value="standard">Standard</option>
+                <option value="shadow">Shadow</option>
+                <option value="thinkertoy">Thinkertoy</option>
+            </select>
+            <div class="button-container">
+                <button class="button generate-button" type="submit">Generate</button>
+                <a href="/" class="button export-button" title="Refresh page">
+                    <img src="/static/images/refresh.svg" alt="Refresh Icon" />
+                </a>
+                <button class="button export-button" type="button" onclick="exportAscii()" title="Export Generated Ascii File">
+                    <img src="/static/images/export-file.svg" alt="Export Icon" />
+                </button>    
+            </div>
+        </form>
+        <pre id="output"></pre>
+    </div>
+
+    <!-- Error Overlay and Pop-up -->
+    <div class="error-overlay" id="error-overlay">
+        <div class="error-popup" id="error-popup">
+            <div class="error-message-text" id="error-message-text"></div>
+            <button id="error-btn" class="button">Got it!</button>
+        </div>
+    </div>
+
+    <script src=./static/display.js></script>
+</body>
+</html>

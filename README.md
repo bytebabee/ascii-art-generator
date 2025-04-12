@@ -88,4 +88,4 @@ ASCII Art Web is a web application that converts text into ASCII art with variou
 
 ## Authors
 
-- Created by Irem ([@bytebabee](https://github.com/bytebabee)) and Taha ([@tcavuslu](https://github.com/tcavuslu)) 
+- Created by Irem ([@iremnurc](https://github.com/iremnurc)) and Taha ([@tcavuslu](https://github.com/tcavuslu)) 

@@ -1,6 +1,6 @@
 # ASCII Art Web
 
-![ASCII Art Web](ascii-art-web-exportfile/static/images/brand.png)
+![ASCII Art Web](static/images/brand.png)
 
 ## Overview
 
